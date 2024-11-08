@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Tournament Bracket Design</title>
+    <script src="http://code.jquery.com/jquery-1.8.3.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            // Load match data from JSON
+            $.getJSON('/get_matches', function(data) {
+                createBracket(data, 'Cadet');
+                createBracket(data, 'Junior');
+                createBracket(data, 'Senior');
+            });
+
+            // Function to create the bracket layout
+            function createBracket(data, category) {
+                var matches = data[category];
+                if (!matches || matches.length === 0) return; // No matches for this category
+
+                var bracketContainer = $('<div class="bracket-container"></div>').append('<h2>' + category + '</h2>');
+
+                matches.forEach(function(match, index) {
+                    let matchDiv = $('<div class="bracket-box"></div>');
+
+                    // Create each team slot inside the match box
+                    matchDiv.append('<div class="team top-team">' + (match['Peserta'] || 'N/A') + '</div>');
+                    matchDiv.append('<div class="team bottom-team">' + (match['Lawan'] || 'dummy') + '</div>');
+
+                    bracketContainer.append(matchDiv);
+                });
+
+                $('#brackets').append(bracketContainer);
+            }
+        });
+    </script>
+    <style type="text/css">
+        /* Basic Layout */
+        html, body {
+            width: 100%;
+            min-height: 100%;
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            background-color: #f9f9f9;
+            margin: 0;
+            padding: 20px;
+        }
+        h2 {
+            text-align: center;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+        .bracket-container {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            align-items: center;
+        }
+
+        /* Bracket Box Styling */
+        .bracket-box {
+            width: 200px;
+            border: 1px solid #333;
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            align-items: stretch;
+        }
+        .team {
+            padding: 10px;
+            text-align: center;
+            font-size: 0.9em;
+        }
+        .top-team {
+            border-bottom: 1px solid #333;
+            background-color: #eaeaea;
+        }
+        .bottom-team {
+            background-color: #ffffff;
+        }
+
+        /* Connector Lines */
+        .bracket-box:before, .bracket-box:after {
+            content: "";
+            position: absolute;
+            width: 20px;
+            height: 1px;
+            background-color: #333;
+        }
+        .bracket-box:before {
+            left: -20px;
+            top: 25%;
+        }
+        .bracket-box:after {
+            left: -20px;
+            bottom: 25%;
+        }
+    </style>
+</head>
+<body>
+    <div id="brackets"></div>
+</body>
+</html>

@@ -1,0 +1,208 @@
+{
+    "Cadet": [
+        {
+            "Peserta": "Peserta_5",
+            "Lawan": "dummy",
+            "Berat Peserta": 77,
+            "Berat Lawan": null,
+            "Tinggi Peserta": 153,
+            "Tinggi Lawan": null,
+            "Usia Peserta": 14,
+            "Usia Lawan": null
+        },
+        {
+            "Peserta": "Peserta_10",
+            "Lawan": "dummy",
+            "Berat Peserta": 61,
+            "Berat Lawan": null,
+            "Tinggi Peserta": 159,
+            "Tinggi Lawan": null,
+            "Usia Peserta": 13,
+            "Usia Lawan": null
+        },
+        {
+            "Peserta": "Peserta_11",
+            "Lawan": "dummy",
+            "Berat Peserta": 64,
+            "Berat Lawan": null,
+            "Tinggi Peserta": 167,
+            "Tinggi Lawan": null,
+            "Usia Peserta": 14,
+            "Usia Lawan": null
+        },
+        {
+            "Peserta": "Peserta_13",
+            "Lawan": "dummy",
+            "Berat Peserta": 67,
+            "Berat Lawan": null,
+            "Tinggi Peserta": 146,
+            "Tinggi Lawan": null,
+            "Usia Peserta": 14,
+            "Usia Lawan": null
+        },
+        {
+            "Peserta": "Peserta_14",
+            "Lawan": "dummy",
+            "Berat Peserta": 55,
+            "Berat Lawan": null,
+            "Tinggi Peserta": 183,
+            "Tinggi Lawan": null,
+            "Usia Peserta": 14,
+            "Usia Lawan": null
+        },
+        {
+            "Peserta": "Peserta_20",
+            "Lawan": "dummy",
+            "Berat Peserta": 48,
+            "Berat Lawan": null,
+            "Tinggi Peserta": 175,
+            "Tinggi Lawan": null,
+            "Usia Peserta": 14,
+            "Usia Lawan": null
+        }
+    ],
+    "Junior": [
+        {
+            "Peserta": "Peserta_2",
+            "Lawan": "dummy",
+            "Berat Peserta": 41,
+            "Berat Lawan": null,
+            "Tinggi Peserta": 157,
+            "Tinggi Lawan": null,
+            "Usia Peserta": 15,
+            "Usia Lawan": null
+        },
+        {
+            "Peserta": "Peserta_3",
+            "Lawan": "Peserta_7",
+            "Berat Peserta": 63,
+            "Berat Lawan": 60,
+            "Tinggi Peserta": 143,
+            "Tinggi Lawan": 148,
+            "Usia Peserta": 16,
+            "Usia Lawan": 16
+        },
+        {
+            "Peserta": "Peserta_7",
+            "Lawan": "Peserta_3",
+            "Berat Peserta": 60,
+            "Berat Lawan": 63,
+            "Tinggi Peserta": 148,
+            "Tinggi Lawan": 143,
+            "Usia Peserta": 16,
+            "Usia Lawan": 16
+        },
+        {
+            "Peserta": "Peserta_8",
+            "Lawan": "dummy",
+            "Berat Peserta": 72,
+            "Berat Lawan": null,
+            "Tinggi Peserta": 165,
+            "Tinggi Lawan": null,
+            "Usia Peserta": 16,
+            "Usia Lawan": null
+        },
+        {
+            "Peserta": "Peserta_16",
+            "Lawan": "dummy",
+            "Berat Peserta": 42,
+            "Berat Lawan": null,
+            "Tinggi Peserta": 186,
+            "Tinggi Lawan": null,
+            "Usia Peserta": 16,
+            "Usia Lawan": null
+        },
+        {
+            "Peserta": "Peserta_17",
+            "Lawan": "dummy",
+            "Berat Peserta": 76,
+            "Berat Lawan": null,
+            "Tinggi Peserta": 174,
+            "Tinggi Lawan": null,
+            "Usia Peserta": 15,
+            "Usia Lawan": null
+        }
+    ],
+    "Senior": [
+        {
+            "Peserta": "Peserta_1",
+            "Lawan": "dummy",
+            "Berat Peserta": 61,
+            "Berat Lawan": null,
+            "Tinggi Peserta": 178,
+            "Tinggi Lawan": null,
+            "Usia Peserta": 18,
+            "Usia Lawan": null
+        },
+        {
+            "Peserta": "Peserta_4",
+            "Lawan": "dummy",
+            "Berat Peserta": 69,
+            "Berat Lawan": null,
+            "Tinggi Peserta": 164,
+            "Tinggi Lawan": null,
+            "Usia Peserta": 18,
+            "Usia Lawan": null
+        },
+        {
+            "Peserta": "Peserta_6",
+            "Lawan": "dummy",
+            "Berat Peserta": 41,
+            "Berat Lawan": null,
+            "Tinggi Peserta": 189,
+            "Tinggi Lawan": null,
+            "Usia Peserta": 19,
+            "Usia Lawan": null
+        },
+        {
+            "Peserta": "Peserta_9",
+            "Lawan": "dummy",
+            "Berat Peserta": 51,
+            "Berat Lawan": null,
+            "Tinggi Peserta": 141,
+            "Tinggi Lawan": null,
+            "Usia Peserta": 18,
+            "Usia Lawan": null
+        },
+        {
+            "Peserta": "Peserta_12",
+            "Lawan": "dummy",
+            "Berat Peserta": 66,
+            "Berat Lawan": null,
+            "Tinggi Peserta": 186,
+            "Tinggi Lawan": null,
+            "Usia Peserta": 18,
+            "Usia Lawan": null
+        },
+        {
+            "Peserta": "Peserta_15",
+            "Lawan": "dummy",
+            "Berat Peserta": 54,
+            "Berat Lawan": null,
+            "Tinggi Peserta": 147,
+            "Tinggi Lawan": null,
+            "Usia Peserta": 19,
+            "Usia Lawan": null
+        },
+        {
+            "Peserta": "Peserta_18",
+            "Lawan": "dummy",
+            "Berat Peserta": 46,
+            "Berat Lawan": null,
+            "Tinggi Peserta": 153,
+            "Tinggi Lawan": null,
+            "Usia Peserta": 19,
+            "Usia Lawan": null
+        },
+        {
+            "Peserta": "Peserta_19",
+            "Lawan": "dummy",
+            "Berat Peserta": 60,
+            "Berat Lawan": null,
+            "Tinggi Peserta": 156,
+            "Tinggi Lawan": null,
+            "Usia Peserta": 19,
+            "Usia Lawan": null
+        }
+    ]
+}
